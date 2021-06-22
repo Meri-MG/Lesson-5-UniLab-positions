@@ -1,0 +1,137 @@
+.container{
+    width:80%;
+    margin: 0 auto;
+}
+
+
+.header-wrapper {
+    background-color: lightblue;
+	position: fixed;
+    padding-left: 20px;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 50;
+    .navigation {
+        display: inline-block;
+        vertical-align: middle;
+        height: 50px;
+        .nav-li{
+            display: inline-block;
+            margin-right: 22px;
+            text-transform: uppercase;
+            &:first-child{
+                font-weight: bold;
+            }
+            a{
+                color: #343638;
+
+            }
+        }
+    }
+}
+
+
+.section1 {
+    margin-top: 75px;
+    margin-left: 140px;
+    .section-titles {
+        text-transform: uppercase;
+        color: #202124;
+        font-weight: bold;
+        font-size: 24px;
+    }
+    .small-images {
+        display: inline-block;
+        width: 360px;
+        height: 350px;
+        margin-right: 40px;
+        margin-top: 40px;
+
+        .image-wrapper {
+            position: relative;
+        }
+        .small-image-title {
+            position: absolute;
+            left: 40px;
+            top: 28px;
+            color: #FFFFFF;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        .small-image-paragraph {
+            color: #A6ADB4;
+            font-size: 13px;
+            line-height: 23px;
+            width: 280px;
+            height: 38px;
+            margin: 66px 40px;
+        }
+    }
+}
+
+
+.section2 {
+    // background-color: rosybrown;
+    // margin-left: 140px;
+    width: 60%;   
+    min-height: 100px; 
+    display: inline-block;
+    .section-titles {
+        text-transform: uppercase;
+        color: #202124;
+        font-weight: bold;
+        font-size: 24px;
+    }
+    .big-images{
+        margin-top: 40px;
+        img{
+            width:100%;
+        }
+        .big-image-wrapper {
+            position: relative;
+            margin-bottom: 20px;
+         
+            .big-image-title {
+                position: absolute;
+                right: 30px;
+                bottom: 30px;
+                color: #FFFFFF;
+                font-weight: bold;
+                font-size: 16px;
+            }
+        }
+    
+    }
+}
+
+
+.section3 {
+
+    margin-top: 65px;
+    vertical-align: top;
+    min-height: 100px; 
+    display: inline-block;
+    width: 39%;
+    margin-bottom: 100px;
+    // background-color: rebeccapurple;
+    img{
+        width:100%;
+        padding-left: 30px;
+
+    }
+    .image-wrapper{
+        
+        position:relative;
+        .small-image-title{
+            position: absolute;
+            bottom:30px;
+            right: 30px;
+            color:white;
+        }
+    }
+    img{
+        display: block;
+        margin-bottom: 20px;
+    }
+}
