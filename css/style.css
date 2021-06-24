@@ -15,9 +15,18 @@
 
 .header-wrapper .navigation {
   display: inline-block;
-  vertical-align: middle;
-  height: 50px;
+  margin-left: 100px;
 }
+
+
+.header-wrapper .profile {
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+  top:10px;
+}
+
+
 
 .header-wrapper .navigation .nav-li {
   display: inline-block;
@@ -29,8 +38,11 @@
   font-weight: bold;
 }
 
+
 .header-wrapper .navigation .nav-li a {
   color: #343638;
+  padding: 15px;
+  display: block;
 }
 
 .section1 {
