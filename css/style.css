@@ -1,5 +1,5 @@
 .container {
-  width: 80%;
+  width: calc(1849px - 280px);
   margin: 0 auto;
 }
 
